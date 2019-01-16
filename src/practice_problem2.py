@@ -90,7 +90,7 @@ def practice_problem2a(sequence, delta):
     #    TIME ESTIMATE:   5 minutes.
     ###########################################################################
 
-    for k in range (len(sequence)):
+    for k in range(len(sequence)):
         sequence = sequence[k]+delta
     return sequence
 
